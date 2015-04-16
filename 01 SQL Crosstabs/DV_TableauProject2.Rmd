@@ -1,0 +1,19 @@
+---
+title: "DV_TableauProject2"
+author: "Zach, Brian, Henry"
+date: "April 15, 2015"
+output: html_document
+---
+##The first table shows rank partitioned by magtype.
+###This basically shows the greatest magnitude within each different types of earthquakes
+
+##The Second table shows the greatest magnitude by magtype
+
+##The Third table shows the n_th magnitude within each magtype
+###We chose to show the 2nd magnitude within each type
+
+## The last table shows the cumulative distribution
+
+```{r, echo=FALSE}
+source("../01 SQL Crosstabs/data.r", echo=TRUE)
+```
